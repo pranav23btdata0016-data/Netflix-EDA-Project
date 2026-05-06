@@ -1,14 +1,18 @@
-# Netflix-EDA-Project
+# Retail Sales Analysis and Prediction
 
 ## Project Overview
-This project performs Exploratory Data Analysis (EDA) on the Netflix Movies and TV Shows dataset to identify trends, patterns, and key insights using statistical summaries and visualizations.
+This project focuses on analyzing real-world retail sales data to uncover business insights and predict sales using machine learning techniques.
 
-The analysis focuses on understanding Netflix content distribution, release trends, ratings, genres, and country-wise production.
+The project combines Exploratory Data Analysis (EDA) and Predictive Modeling to understand sales patterns, customer behavior, regional performance, and product trends in the retail sector.
 
 ---
 
 ## Objective
-To analyze the Netflix dataset and uncover meaningful insights using data visualization and statistical analysis techniques.
+The objective of this project is to:
+- Analyze retail sales data using statistical summaries and visualizations
+- Identify important business trends and patterns
+- Build machine learning models for sales prediction
+- Compare model performance using evaluation metrics
 
 ---
 
@@ -18,62 +22,93 @@ To analyze the Netflix dataset and uncover meaningful insights using data visual
 - NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Google Colab
 
 ---
 
 ## Dataset
-The dataset contains information about Netflix Movies and TV Shows including:
-- Title
-- Director
-- Cast
-- Country
-- Release Year
-- Rating
-- Genre
-- Duration
+The project uses a real-world retail sales dataset containing information such as:
+- Order Details
+- Sales
+- Profit
+- Product Categories
+- Regions
+- Customer Information
+- Shipping Details
 
 ---
 
 ## Project Workflow
 1. Data Collection
 2. Data Cleaning
-3. Statistical Summary
+3. Exploratory Data Analysis
 4. Data Visualization
-5. Trend Analysis
-6. Insight Generation
+5. Feature Selection
+6. Model Training
+7. Model Evaluation
+8. Business Insight Generation
 
 ---
 
-## Visualizations Included
-- Movies vs TV Shows Distribution
-- Top 10 Content Producing Countries
-- Ratings Distribution
-- Release Year Trends
-- Top Genres Analysis
+## Exploratory Data Analysis
+The following analyses and visualizations were performed:
+- Sales by Category
+- Profit by Region
+- Monthly Sales Trend
 - Correlation Heatmap
+- Sales Distribution Analysis
+
+---
+
+## Machine Learning Models Used
+
+### Linear Regression
+Used as a baseline model for sales prediction.
+
+### Random Forest Regressor
+Used to improve prediction accuracy and capture complex relationships in the dataset.
+
+---
+
+## Model Results
+
+### Linear Regression
+- R2 Score: 0.19
+
+### Random Forest Regressor
+- R2 Score: 0.51
+
+The Random Forest model achieved significantly better performance compared to Linear Regression, showing its ability to model complex retail sales patterns.
 
 ---
 
 ## Key Insights
-- Movies are more common than TV Shows on Netflix.
-- The United States produces the highest amount of Netflix content.
-- Content production increased rapidly after 2015.
-- Drama and International Movies are among the most common genres.
-- TV-MA is one of the most frequently used ratings.
+- Certain product categories generated higher overall sales.
+- Regional profit trends varied significantly across different locations.
+- Monthly sales trends showed fluctuations in retail demand.
+- Quantity and Profit had noticeable influence on Sales prediction.
+- Random Forest performed better for predictive modeling tasks.
 
 ---
 
 ## Conclusion
-This exploratory data analysis project helped identify important trends and patterns in Netflix content data.
+This project successfully demonstrated the application of data science techniques in a real-world retail business scenario.
 
-The project provided practical experience in data cleaning, visualization, and analytical thinking using Python data analysis libraries.
+Exploratory Data Analysis helped uncover meaningful business insights, while machine learning models enabled sales prediction and performance comparison.
+
+The project provided practical experience in:
+- Data preprocessing
+- Visualization
+- Business analytics
+- Predictive modeling
+- Model evaluation
 
 ---
 
 ## Repository Contents
-- `Netflix_EDA_Project.ipynb`
-- `netflix_titles.csv`
+- `Retail_Sales_Analysis_and_Prediction.ipynb`
+- `SuperStore_Sales_Dataset.csv`
 - `README.md`
 
 ---
